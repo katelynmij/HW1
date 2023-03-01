@@ -1,0 +1,83 @@
+
+div {
+    background: #ffccff;  
+}
+.center {
+    text-align: center; /* Requirement-2.2 */
+    font-family: Arial, Helvetica, sans-serif; /* Requirement-2.1 */
+    border: 10px solid #cc6699;
+}
+div.center p { /* Requirement-2.F */
+    color:black; /* Requirement-2.3 */
+}
+
+.sumikko {
+    display: block;
+    margin-left: auto; /* Requirement-2.6 */
+    margin-right: auto;
+    width: 50%; /* Requirement-2.7 */
+    border: 10px solid #cc6699; /* Requiremenmt-2.5 */
+}
+
+.link { /* Requirement-2.C */
+    visibility: visible; /* Requirement-2.16 */
+    position: absolute;
+    top: 50px;
+    left:16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+    color: black;
+}
+a:hover { /* Requirement-2.E */
+    color: gray;
+}
+
+#footer { /*Requirement-2.D*/
+    position: absolute; /* Requirement-2.15 */
+    bottom: 0;
+    width: 100%; /* Requirement-2.10 */
+    float: left; /* Requirement-2.11 */
+    height: 2.5rem;
+    clear: left right; /* Requirement-2.13 */
+}
+
+.left {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid #cc6699;
+    display: inline-block; /* Requirement-2.12 */
+    overflow: scroll;
+    list-style: square; /* Requirement-2.8 */
+}
+
+.right {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid #cc6699;
+    display: inline-block;
+    overflow: scroll;
+    list-style: square;
+
+}
+
+h1 {
+    top: 8px; /* Requirement-2.9 */
+    left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cinnamoroll {
+    float: left;
+    z-index: -1; /* Requirement-2.17 */
+}
+
+.hellokitty {
+    height: 250px;
+    width: 250px;
+    float: right;
+    z-index: -1;
+}
+
+body { /* Requirement-2.A */
+    background: -webkit-radial-gradient(bottom right, #ffccff, #cc6699); /* Requirement-2.5 */
+    text-align: center;
+}
